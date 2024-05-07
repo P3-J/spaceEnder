@@ -20,7 +20,7 @@ public partial class fightstarter : Area3D
 	{
 		if (body.Name == "player") 
 		{	
-			// change
+			// chan
 			if (InstantFight)
 			{
 				EmitSignal("StartCombat", Difficulty, ID);
