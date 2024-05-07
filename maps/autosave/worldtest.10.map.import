@@ -1,0 +1,14 @@
+[remap]
+
+importer="qodot.map"
+type="Resource"
+uid="uid://c616m3gj2rigi"
+path="res://.godot/imported/worldtest.10.map-652dd1b54ba3a94c15f67928e6b5f409.tres"
+
+[deps]
+
+source_file="res://maps/autosave/worldtest.10.map"
+dest_files=["res://.godot/imported/worldtest.10.map-652dd1b54ba3a94c15f67928e6b5f409.tres"]
+
+[params]
+

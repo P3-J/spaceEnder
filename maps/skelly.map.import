@@ -1,0 +1,14 @@
+[remap]
+
+importer="qodot.map"
+type="Resource"
+uid="uid://bgbam7fmb45b2"
+path="res://.godot/imported/skelly.map-b8a34a69a99993643e7041dbcefe283d.tres"
+
+[deps]
+
+source_file="res://maps/skelly.map"
+dest_files=["res://.godot/imported/skelly.map-b8a34a69a99993643e7041dbcefe283d.tres"]
+
+[params]
+

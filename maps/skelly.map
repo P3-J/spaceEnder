@@ -1,0 +1,190 @@
+// Game: darkness
+// Format: Valve
+// entity 0
+{
+"mapversion" "220"
+"classname" "worldspawn"
+"_tb_textures" "textures;textures\Art;textures\Art\Materials;textures\Books;textures\Books\Materials;textures\Boxes;textures\Boxes\Materials;textures\Bricks;textures\Bricks\Materials;textures\Buildings;textures\Buildings\Materials;textures\Concrete;textures\Concrete\Materials;textures\Doors;textures\Doors\Materials;textures\Electrical;textures\Electrical\Materials;textures\Floor;textures\Floor\Materials;textures\Food;textures\Food\Materials;textures\Gems;textures\Gems\Materials;textures\Ground;textures\Ground\Materials;textures\Industrial;textures\Industrial\Materials;textures\Metal;textures\Metal\Materials;textures\Misc;textures\Misc\Colors;textures\Misc\Materials;textures\Nature;textures\Nature\Materials;textures\Panels;textures\Panels\Materials;textures\Papers;textures\Papers\Materials;textures\Products;textures\Products\Materials;textures\Road;textures\Road\Materials;textures\Rocks;textures\Rocks\Materials;textures\Roof;textures\Roof\Materials;textures\Shelves;textures\Shelves\Materials;textures\Signs;textures\Signs\Materials;textures\Tiles;textures\Tiles\Materials;textures\Tools;textures\Tools\Materials;textures\Units;textures\Units\Materials;textures\Vehicles;textures\Vehicles\Materials;textures\Walls;textures\Walls\Materials;textures\Water;textures\Windows;textures\Windows\Materials;textures\Wood;textures\Wood\Materials"
+// brush 0
+{
+( -40 40 16 ) ( -40 48 0 ) ( -40 56 0 ) Concrete/Materials/concrete_10 [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -24 40 16 ) ( -24 48 0 ) ( -40 48 0 ) Concrete/Materials/concrete_10 [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -24 48 0 ) ( -24 56 0 ) ( -40 56 0 ) Concrete/Materials/concrete_10 [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( -40 56 16 ) ( -24 56 16 ) ( -24 40 16 ) Concrete/Materials/concrete_10 [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( -24 56 0 ) ( -24 56 16 ) ( -40 56 16 ) Concrete/Materials/concrete_10 [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -24 40 16 ) ( -24 56 16 ) ( -24 56 0 ) Concrete/Materials/concrete_10 [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+}
+// brush 1
+{
+( -40 24 16 ) ( -48 48 16 ) ( -48 48 40 ) Concrete/Materials/concrete_10 [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -40 24 40 ) ( -24 24 40 ) ( -24 24 16 ) Concrete/Materials/concrete_16 [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -24 24 16 ) ( -16 48 16 ) ( -48 48 16 ) Concrete/Materials/concrete_10 [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( -48 48 40 ) ( -16 48 40 ) ( -24 24 40 ) Concrete/Materials/concrete_10 [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( -16 48 16 ) ( -16 48 40 ) ( -48 48 40 ) Concrete/Materials/concrete_10 [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -24 24 40 ) ( -16 48 40 ) ( -16 48 16 ) Concrete/Materials/concrete_10 [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+}
+// brush 2
+{
+( -52 40 -64 ) ( -56 40 -112 ) ( -56 56 -112 ) Concrete/Materials/concrete_10 [ 0 -1 0 8 ] [ 0 0 -1 0 ] 0 1 1
+( -52 40 -64 ) ( -48 40 -64 ) ( -48 40 -112 ) Concrete/Materials/concrete_10 [ 1 0 0 -8 ] [ 0 0 -1 0 ] 0 1 1
+( -48 40 -112 ) ( -48 56 -112 ) ( -56 56 -112 ) Concrete/Materials/concrete_10 [ -1 0 0 8 ] [ 0 -1 0 8 ] 0 1 1
+( -52 56 -64 ) ( -48 56 -64 ) ( -48 40 -64 ) Concrete/Materials/concrete_10 [ 1 0 0 -8 ] [ 0 -1 0 8 ] 0 1 1
+( -48 56 -112 ) ( -48 56 -64 ) ( -52 56 -64 ) Concrete/Materials/concrete_10 [ -1 0 0 8 ] [ 0 0 -1 0 ] 0 1 1
+( -48 40 -64 ) ( -48 56 -64 ) ( -48 56 -112 ) Concrete/Materials/concrete_10 [ 0 1 0 -8 ] [ 0 0 -1 0 ] 0 1 1
+}
+// brush 3
+{
+( -16 56 -64 ) ( -16 40 -64 ) ( -16 40 -112 ) Concrete/Materials/concrete_10 [ 0 -1 0 8 ] [ 0 0 -1 0 ] 0 1 1
+( -12 40 -64 ) ( -8 40 -112 ) ( -16 40 -112 ) Concrete/Materials/concrete_10 [ 1 0 0 8 ] [ 0 0 -1 0 ] 0 1 1
+( -8 40 -112 ) ( -8 56 -112 ) ( -16 56 -112 ) Concrete/Materials/concrete_10 [ -1 0 0 -8 ] [ 0 -1 0 8 ] 0 1 1
+( -16 56 -64 ) ( -12 56 -64 ) ( -12 40 -64 ) Concrete/Materials/concrete_10 [ 1 0 0 8 ] [ 0 -1 0 8 ] 0 1 1
+( -16 56 -112 ) ( -8 56 -112 ) ( -12 56 -64 ) Concrete/Materials/concrete_10 [ -1 0 0 -8 ] [ 0 0 -1 0 ] 0 1 1
+( -12 56 -64 ) ( -8 56 -112 ) ( -8 40 -112 ) Concrete/Materials/concrete_10 [ 0 1 0 -8 ] [ 0 0 -1 0 ] 0 1 1
+}
+// brush 4
+{
+( -48 40 -56 ) ( -56 40 -80 ) ( -56 56 -80 ) Concrete/Materials/concrete_10 [ 0 -1 0 0 ] [ 0 0 -1 -8 ] 0 1 1
+( -16 40 -56 ) ( -8 40 -80 ) ( -56 40 -80 ) Concrete/Materials/concrete_10 [ 1 0 0 0 ] [ 0 0 -1 -8 ] 0 1 1
+( -8 40 -64 ) ( -8 56 -64 ) ( -56 56 -64 ) Concrete/Materials/concrete_10 [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( -48 56 -56 ) ( -16 56 -56 ) ( -16 40 -56 ) Concrete/Materials/concrete_10 [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( -56 56 -80 ) ( -8 56 -80 ) ( -16 56 -56 ) Concrete/Materials/concrete_10 [ -1 0 0 0 ] [ 0 0 -1 -8 ] 0 1 1
+( -16 56 -56 ) ( -8 56 -80 ) ( -8 40 -80 ) Concrete/Materials/concrete_10 [ 0 1 0 0 ] [ 0 0 -1 -8 ] 0 1 1
+}
+// brush 5
+{
+( -40 48 -56 ) ( -40 49 -56 ) ( -40 48 -55 ) Concrete/Materials/concrete_10 [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -64 48 -56 ) ( -64 48 -55 ) ( -63 48 -56 ) Concrete/Materials/concrete_10 [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -64 48 -56 ) ( -63 48 -56 ) ( -64 49 -56 ) Concrete/Materials/concrete_10 [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( -24 56 0 ) ( -24 57 0 ) ( -23 56 0 ) Concrete/Materials/concrete_10 [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( -24 56 -48 ) ( -23 56 -48 ) ( -24 56 -47 ) Concrete/Materials/concrete_10 [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -24 56 -48 ) ( -24 56 -47 ) ( -24 57 -48 ) Concrete/Materials/concrete_10 [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+}
+// brush 6
+{
+( -24 48 -48 ) ( -24 49 -48 ) ( -24 48 -47 ) Concrete/Materials/concrete_10 [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -24 48 -48 ) ( -24 48 -47 ) ( -23 48 -48 ) Concrete/Materials/concrete_10 [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -24 48 -48 ) ( -23 48 -48 ) ( -24 49 -48 ) Concrete/Materials/concrete_10 [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( -16 56 -40 ) ( -16 57 -40 ) ( -15 56 -40 ) Concrete/Materials/concrete_10 [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( -16 56 -40 ) ( -15 56 -40 ) ( -16 56 -39 ) Concrete/Materials/concrete_10 [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 0 56 -40 ) ( 0 56 -39 ) ( 0 57 -40 ) Concrete/Materials/concrete_10 [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+}
+// brush 7
+{
+( -16 24 -40 ) ( -16 32 -48 ) ( -16 32 -40 ) Concrete/Materials/concrete_10 [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -8 48 -40 ) ( -16 32 -48 ) ( -8 48 -48 ) Concrete/Materials/concrete_10 [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -8 24 -40 ) ( -16 24 -48 ) ( -16 24 -40 ) Concrete/Materials/concrete_10 [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 0 48 -45 ) ( -8 24 -45 ) ( 0 32 -45 ) Concrete/Materials/concrete_10 [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( 0 48 -40 ) ( -16 32 -40 ) ( -8 48 -40 ) Concrete/Materials/concrete_floor_03 [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( 0 48 -40 ) ( -8 48 -48 ) ( 0 48 -48 ) Concrete/Materials/concrete_10 [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 0 32 -40 ) ( -8 24 -48 ) ( -8 24 -40 ) Concrete/Materials/concrete_10 [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 0 48 -40 ) ( 0 32 -48 ) ( 0 32 -40 ) Concrete/Materials/concrete_10 [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+}
+// brush 8
+{
+( -16 24 -24 ) ( -16 32 -32 ) ( -16 32 -24 ) Concrete/Materials/concrete_10 [ 0 -1 0 0 ] [ 0 0 -1 16 ] 0 1 1
+( -8 48 -24 ) ( -16 32 -32 ) ( -8 48 -32 ) Concrete/Materials/concrete_10 [ 0 -1 0 0 ] [ 0 0 -1 16 ] 0 1 1
+( -8 24 -24 ) ( -16 24 -32 ) ( -16 24 -24 ) Concrete/Materials/concrete_10 [ 1 0 0 0 ] [ 0 0 -1 16 ] 0 1 1
+( 0 48 -30 ) ( -8 24 -30 ) ( 0 32 -30 ) Concrete/Materials/concrete_10 [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( 0 48 -24 ) ( -16 32 -24 ) ( -8 48 -24 ) Concrete/Materials/concrete_floor_03 [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( 0 48 -24 ) ( -8 48 -32 ) ( 0 48 -32 ) Concrete/Materials/concrete_10 [ -1 0 0 0 ] [ 0 0 -1 16 ] 0 1 1
+( 0 32 -24 ) ( -8 24 -32 ) ( -8 24 -24 ) Concrete/Materials/concrete_10 [ 0 1 0 0 ] [ 0 0 -1 16 ] 0 1 1
+( 0 48 -24 ) ( 0 32 -32 ) ( 0 32 -24 ) Concrete/Materials/concrete_10 [ 0 1 0 0 ] [ 0 0 -1 16 ] 0 1 1
+}
+// brush 9
+{
+( -24 48 -32 ) ( -24 49 -32 ) ( -24 48 -31 ) Concrete/Materials/concrete_10 [ 0 -1 0 0 ] [ 0 0 -1 16 ] 0 1 1
+( -24 48 -32 ) ( -24 48 -31 ) ( -23 48 -32 ) Concrete/Materials/concrete_10 [ 1 0 0 0 ] [ 0 0 -1 16 ] 0 1 1
+( -24 48 -32 ) ( -23 48 -32 ) ( -24 49 -32 ) Concrete/Materials/concrete_10 [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( -16 56 -24 ) ( -16 57 -24 ) ( -15 56 -24 ) Concrete/Materials/concrete_10 [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( -16 56 -24 ) ( -15 56 -24 ) ( -16 56 -23 ) Concrete/Materials/concrete_10 [ -1 0 0 0 ] [ 0 0 -1 16 ] 0 1 1
+( 0 56 -24 ) ( 0 56 -23 ) ( 0 57 -24 ) Concrete/Materials/concrete_10 [ 0 1 0 0 ] [ 0 0 -1 16 ] 0 1 1
+}
+// brush 10
+{
+( -16 24 -8 ) ( -16 32 -16 ) ( -16 32 -8 ) Concrete/Materials/concrete_10 [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -8 48 -8 ) ( -16 32 -16 ) ( -8 48 -16 ) Concrete/Materials/concrete_10 [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -8 24 -8 ) ( -16 24 -16 ) ( -16 24 -8 ) Concrete/Materials/concrete_10 [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 0 48 -16 ) ( -8 24 -16 ) ( 0 32 -16 ) Concrete/Materials/concrete_10 [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( 0 48 -11 ) ( -16 32 -11 ) ( -8 48 -11 ) Concrete/Materials/concrete_tile_01 [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( 0 48 -8 ) ( -8 48 -16 ) ( 0 48 -16 ) Concrete/Materials/concrete_10 [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 0 32 -8 ) ( -8 24 -16 ) ( -8 24 -8 ) Concrete/Materials/concrete_10 [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 0 48 -8 ) ( 0 32 -16 ) ( 0 32 -8 ) Concrete/Materials/concrete_10 [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+}
+// brush 11
+{
+( -24 48 -16 ) ( -24 49 -16 ) ( -24 48 -15 ) Concrete/Materials/concrete_10 [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -24 48 -16 ) ( -24 48 -15 ) ( -23 48 -16 ) Concrete/Materials/concrete_10 [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -24 48 -16 ) ( -23 48 -16 ) ( -24 49 -16 ) Concrete/Materials/concrete_10 [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( -16 56 -8 ) ( -16 57 -8 ) ( -15 56 -8 ) Concrete/Materials/concrete_10 [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( -16 56 -8 ) ( -15 56 -8 ) ( -16 56 -7 ) Concrete/Materials/concrete_10 [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 0 56 -8 ) ( 0 56 -7 ) ( 0 57 -8 ) Concrete/Materials/concrete_10 [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+}
+// brush 12
+{
+( -64 48 -48 ) ( -64 32 -40 ) ( -64 32 -48 ) Concrete/Materials/concrete_10 [ -7.498798913309287e-33 1 1.224646799147353e-16 0 ] [ 0 -1.2246467991473532e-16 1 -8 ] 180 1 1
+( -64 32 -48 ) ( -56 24 -40 ) ( -56 24 -48 ) Concrete/Materials/concrete_10 [ -7.498798913309287e-33 1 1.224646799147353e-16 0 ] [ 0 -1.2246467991473532e-16 1 -8 ] 263.6206 1 1
+( -56 24 -48 ) ( -48 24 -40 ) ( -48 24 -48 ) Concrete/Materials/concrete_10 [ -1 -3.749399456654645e-33 1.232595164407831e-32 0 ] [ 0 -1.2246467991473532e-16 1 -8 ] 0 1 1
+( -64 48 -45 ) ( -48 32 -45 ) ( -56 48 -45 ) Concrete/Materials/concrete_10 [ -1 -3.749399456654645e-33 1.232595164407831e-32 0 ] [ 7.498798913309287e-33 -1 -1.224646799147353e-16 0 ] 0 1 1
+( -64 48 -40 ) ( -56 24 -40 ) ( -64 32 -40 ) Concrete/Materials/concrete_floor_03 [ 1 3.749399456654645e-33 -1.232595164407831e-32 0 ] [ 7.498798913309287e-33 -1 -1.224646799147353e-16 0 ] 0 1 1
+( -64 48 -48 ) ( -56 48 -40 ) ( -64 48 -40 ) Concrete/Materials/concrete_10 [ 1 3.749399456654645e-33 -1.232595164407831e-32 0 ] [ 0 -1.2246467991473532e-16 1 -8 ] 0 1 1
+( -56 48 -48 ) ( -48 32 -40 ) ( -56 48 -40 ) Concrete/Materials/concrete_10 [ 7.498798913309287e-33 -1 -1.224646799147353e-16 0 ] [ 0 -1.2246467991473532e-16 1 -8 ] 146.41711 1 1
+( -48 24 -48 ) ( -48 32 -40 ) ( -48 32 -48 ) Concrete/Materials/concrete_10 [ 7.498798913309287e-33 -1 -1.224646799147353e-16 0 ] [ 0 -1.2246467991473532e-16 1 -8 ] 180 1 1
+}
+// brush 13
+{
+( -64 56 -48 ) ( -64 56 -49 ) ( -64 57 -48 ) Concrete/Materials/concrete_10 [ -7.498798913309287e-33 1 1.224646799147353e-16 0 ] [ 0 -1.2246467991473532e-16 1 -8 ] 180 1 1
+( -40 48 -40 ) ( -40 48 -41 ) ( -41 48 -40 ) Concrete/Materials/concrete_10 [ -1 -3.749399456654645e-33 1.232595164407831e-32 0 ] [ 0 -1.2246467991473532e-16 1 -8 ] 0 1 1
+( -48 56 -48 ) ( -48 57 -48 ) ( -49 56 -48 ) Concrete/Materials/concrete_10 [ -1 -3.749399456654645e-33 1.232595164407831e-32 0 ] [ 7.498798913309287e-33 -1 -1.224646799147353e-16 0 ] 0 1 1
+( -40 48 -40 ) ( -41 48 -40 ) ( -40 49 -40 ) Concrete/Materials/concrete_10 [ 1 3.749399456654645e-33 -1.232595164407831e-32 0 ] [ 7.498798913309287e-33 -1 -1.224646799147353e-16 0 ] 0 1 1
+( -48 56 -48 ) ( -49 56 -48 ) ( -48 56 -49 ) Concrete/Materials/concrete_10 [ 1 3.749399456654645e-33 -1.232595164407831e-32 0 ] [ 0 -1.2246467991473532e-16 1 -8 ] 0 1 1
+( -40 48 -40 ) ( -40 49 -40 ) ( -40 48 -41 ) Concrete/Materials/concrete_10 [ 7.498798913309287e-33 -1 -1.224646799147353e-16 0 ] [ 0 -1.2246467991473532e-16 1 -8 ] 180 1 1
+}
+// brush 14
+{
+( -64 48 -32 ) ( -64 32 -24 ) ( -64 32 -32 ) Concrete/Materials/concrete_10 [ -7.498798913309287e-33 1 1.224646799147353e-16 0 ] [ 0 -1.2246467991473532e-16 1 -24 ] 180 1 1
+( -64 32 -32 ) ( -56 24 -24 ) ( -56 24 -32 ) Concrete/Materials/concrete_10 [ -7.498798913309287e-33 1 1.224646799147353e-16 0 ] [ 0 -1.2246467991473532e-16 1 -24 ] 263.6206 1 1
+( -56 24 -32 ) ( -48 24 -24 ) ( -48 24 -32 ) Concrete/Materials/concrete_10 [ -1 -3.749399456654645e-33 1.232595164407831e-32 0 ] [ 0 -1.2246467991473532e-16 1 -24 ] 0 1 1
+( -64 48 -30 ) ( -48 32 -30 ) ( -56 48 -30 ) Concrete/Materials/concrete_10 [ -1 -3.749399456654645e-33 1.232595164407831e-32 0 ] [ 7.498798913309287e-33 -1 -1.224646799147353e-16 0 ] 0 1 1
+( -64 48 -24 ) ( -56 24 -24 ) ( -64 32 -24 ) Concrete/Materials/concrete_floor_03 [ 1 3.749399456654645e-33 -1.232595164407831e-32 0 ] [ 7.498798913309287e-33 -1 -1.224646799147353e-16 0 ] 0 1 1
+( -64 48 -32 ) ( -56 48 -24 ) ( -64 48 -24 ) Concrete/Materials/concrete_10 [ 1 3.749399456654645e-33 -1.232595164407831e-32 0 ] [ 0 -1.2246467991473532e-16 1 -24 ] 0 1 1
+( -56 48 -32 ) ( -48 32 -24 ) ( -56 48 -24 ) Concrete/Materials/concrete_10 [ 7.498798913309287e-33 -1 -1.224646799147353e-16 0 ] [ 0 -1.2246467991473532e-16 1 -24 ] 146.41711 1 1
+( -48 24 -32 ) ( -48 32 -24 ) ( -48 32 -32 ) Concrete/Materials/concrete_10 [ 7.498798913309287e-33 -1 -1.224646799147353e-16 0 ] [ 0 -1.2246467991473532e-16 1 -24 ] 180 1 1
+}
+// brush 15
+{
+( -64 56 -32 ) ( -64 56 -33 ) ( -64 57 -32 ) Concrete/Materials/concrete_10 [ -7.498798913309287e-33 1 1.224646799147353e-16 0 ] [ 0 -1.2246467991473532e-16 1 -24 ] 180 1 1
+( -40 48 -24 ) ( -40 48 -25 ) ( -41 48 -24 ) Concrete/Materials/concrete_10 [ -1 -3.749399456654645e-33 1.232595164407831e-32 0 ] [ 0 -1.2246467991473532e-16 1 -24 ] 0 1 1
+( -48 56 -32 ) ( -48 57 -32 ) ( -49 56 -32 ) Concrete/Materials/concrete_10 [ -1 -3.749399456654645e-33 1.232595164407831e-32 0 ] [ 7.498798913309287e-33 -1 -1.224646799147353e-16 0 ] 0 1 1
+( -40 48 -24 ) ( -41 48 -24 ) ( -40 49 -24 ) Concrete/Materials/concrete_10 [ 1 3.749399456654645e-33 -1.232595164407831e-32 0 ] [ 7.498798913309287e-33 -1 -1.224646799147353e-16 0 ] 0 1 1
+( -48 56 -32 ) ( -49 56 -32 ) ( -48 56 -33 ) Concrete/Materials/concrete_10 [ 1 3.749399456654645e-33 -1.232595164407831e-32 0 ] [ 0 -1.2246467991473532e-16 1 -24 ] 0 1 1
+( -40 48 -24 ) ( -40 49 -24 ) ( -40 48 -25 ) Concrete/Materials/concrete_10 [ 7.498798913309287e-33 -1 -1.224646799147353e-16 0 ] [ 0 -1.2246467991473532e-16 1 -24 ] 180 1 1
+}
+// brush 16
+{
+( -64 48 -16 ) ( -64 32 -8 ) ( -64 32 -16 ) Concrete/Materials/concrete_10 [ -7.498798913309287e-33 1 1.224646799147353e-16 0 ] [ 0 -1.2246467991473532e-16 1 -8 ] 180 1 1
+( -64 32 -16 ) ( -56 24 -8 ) ( -56 24 -16 ) Concrete/Materials/concrete_10 [ -7.498798913309287e-33 1 1.224646799147353e-16 0 ] [ 0 -1.2246467991473532e-16 1 -8 ] 263.6206 1 1
+( -56 24 -16 ) ( -48 24 -8 ) ( -48 24 -16 ) Concrete/Materials/concrete_10 [ -1 -3.749399456654645e-33 1.232595164407831e-32 0 ] [ 0 -1.2246467991473532e-16 1 -8 ] 0 1 1
+( -64 48 -16 ) ( -48 32 -16 ) ( -56 48 -16 ) Concrete/Materials/concrete_10 [ -1 -3.749399456654645e-33 1.232595164407831e-32 0 ] [ 7.498798913309287e-33 -1 -1.224646799147353e-16 0 ] 0 1 1
+( -64 48 -11 ) ( -56 24 -11 ) ( -64 32 -11 ) Concrete/Materials/concrete_floor_03 [ 1 3.749399456654645e-33 -1.232595164407831e-32 0 ] [ 7.498798913309287e-33 -1 -1.224646799147353e-16 0 ] 0 1 1
+( -64 48 -16 ) ( -56 48 -8 ) ( -64 48 -8 ) Concrete/Materials/concrete_10 [ 1 3.749399456654645e-33 -1.232595164407831e-32 0 ] [ 0 -1.2246467991473532e-16 1 -8 ] 0 1 1
+( -56 48 -16 ) ( -48 32 -8 ) ( -56 48 -8 ) Concrete/Materials/concrete_10 [ 7.498798913309287e-33 -1 -1.224646799147353e-16 0 ] [ 0 -1.2246467991473532e-16 1 -8 ] 146.41711 1 1
+( -48 24 -16 ) ( -48 32 -8 ) ( -48 32 -16 ) Concrete/Materials/concrete_10 [ 7.498798913309287e-33 -1 -1.224646799147353e-16 0 ] [ 0 -1.2246467991473532e-16 1 -8 ] 180 1 1
+}
+// brush 17
+{
+( -64 56 -16 ) ( -64 56 -17 ) ( -64 57 -16 ) Concrete/Materials/concrete_10 [ -7.498798913309287e-33 1 1.224646799147353e-16 0 ] [ 0 -1.2246467991473532e-16 1 -8 ] 180 1 1
+( -40 48 -8 ) ( -40 48 -9 ) ( -41 48 -8 ) Concrete/Materials/concrete_10 [ -1 -3.749399456654645e-33 1.232595164407831e-32 0 ] [ 0 -1.2246467991473532e-16 1 -8 ] 0 1 1
+( -48 56 -16 ) ( -48 57 -16 ) ( -49 56 -16 ) Concrete/Materials/concrete_10 [ -1 -3.749399456654645e-33 1.232595164407831e-32 0 ] [ 7.498798913309287e-33 -1 -1.224646799147353e-16 0 ] 0 1 1
+( -40 48 -8 ) ( -41 48 -8 ) ( -40 49 -8 ) Concrete/Materials/concrete_10 [ 1 3.749399456654645e-33 -1.232595164407831e-32 0 ] [ 7.498798913309287e-33 -1 -1.224646799147353e-16 0 ] 0 1 1
+( -48 56 -16 ) ( -49 56 -16 ) ( -48 56 -17 ) Concrete/Materials/concrete_10 [ 1 3.749399456654645e-33 -1.232595164407831e-32 0 ] [ 0 -1.2246467991473532e-16 1 -8 ] 0 1 1
+( -40 48 -8 ) ( -40 49 -8 ) ( -40 48 -9 ) Concrete/Materials/concrete_10 [ 7.498798913309287e-33 -1 -1.224646799147353e-16 0 ] [ 0 -1.2246467991473532e-16 1 -8 ] 180 1 1
+}
+// brush 18
+{
+( -40 48 24 ) ( -40 48 16 ) ( -40 56 16 ) Concrete/Materials/concrete_10 [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -40 48 24 ) ( -24 48 24 ) ( -24 48 16 ) Concrete/Materials/concrete_10 [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -24 48 16 ) ( -24 56 16 ) ( -40 56 16 ) Concrete/Materials/concrete_10 [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( -40 56 16 ) ( -24 56 16 ) ( -24 48 24 ) Concrete/Materials/concrete_10 [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( -24 48 24 ) ( -24 56 16 ) ( -24 48 16 ) Concrete/Materials/concrete_10 [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+}
+}

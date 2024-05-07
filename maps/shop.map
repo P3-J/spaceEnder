@@ -1,0 +1,108 @@
+// Game: darkness
+// Format: Valve
+// entity 0
+{
+"mapversion" "220"
+"classname" "worldspawn"
+"_tb_textures" "textures;textures\Art;textures\Art\Materials;textures\Books;textures\Books\Materials;textures\Boxes;textures\Boxes\Materials;textures\Bricks;textures\Bricks\Materials;textures\Buildings;textures\Buildings\Materials;textures\Concrete;textures\Concrete\Materials;textures\Doors;textures\Doors\Materials;textures\Electrical;textures\Electrical\Materials;textures\Floor;textures\Floor\Materials;textures\Food;textures\Food\Materials;textures\Gems;textures\Gems\Materials;textures\Ground;textures\Ground\Materials;textures\Industrial;textures\Industrial\Materials;textures\Metal;textures\Metal\Materials;textures\Misc;textures\Misc\Colors;textures\Misc\Materials;textures\Nature;textures\Nature\Materials;textures\Panels;textures\Panels\Materials;textures\Papers;textures\Papers\Materials;textures\Products;textures\Products\Materials;textures\Road;textures\Road\Materials;textures\Rocks;textures\Rocks\Materials;textures\Roof;textures\Roof\Materials;textures\Shelves;textures\Shelves\Materials;textures\Signs;textures\Signs\Materials;textures\Tiles;textures\Tiles\Materials;textures\Tools;textures\Tools\Materials;textures\Units;textures\Units\Materials;textures\Vehicles;textures\Vehicles\Materials;textures\Walls;textures\Walls\Materials;textures\Water;textures\Windows;textures\Windows\Materials;textures\Wood;textures\Wood\Materials"
+"_tb_def" "external:C:/Users/jako/AppData/Roaming/TrenchBroom/games/darkness/Qodot2.fgd"
+// brush 0
+{
+( -176 -64 -16 ) ( -176 -63 -16 ) ( -176 -64 -15 ) Walls/Materials/wall_stucco_04 [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -64 -64 -16 ) ( -64 -64 -15 ) ( -63 -64 -16 ) Walls/Materials/wall_stucco_04 [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -64 -64 -16 ) ( -63 -64 -16 ) ( -64 -63 -16 ) Walls/Materials/wall_stucco_04 [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( 64 64 16 ) ( 64 65 16 ) ( 65 64 16 ) Walls/Materials/wall_stucco_04 [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( 64 608 16 ) ( 65 608 16 ) ( 64 608 17 ) Walls/Materials/wall_stucco_04 [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 208 64 16 ) ( 208 64 17 ) ( 208 65 16 ) Walls/Materials/wall_stucco_04 [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+}
+// brush 1
+{
+( 176 -64 16 ) ( 176 -63 16 ) ( 176 -64 17 ) Floor/Materials/carpet_blue_01 [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 0.2 0.2
+( -64 -64 16 ) ( -64 -64 17 ) ( -63 -64 16 ) Wood/Materials/wood_fancy_04 [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.2 0.2
+( -64 -64 16 ) ( -63 -64 16 ) ( -64 -63 16 ) Wood/Materials/wood_fancy_04 [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 0.2 0.2
+( 64 64 208 ) ( 64 65 208 ) ( 65 64 208 ) Floor/Materials/carpet_blue_01 [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.2 0.2
+( 64 608 48 ) ( 65 608 48 ) ( 64 608 49 ) Wood/Materials/wood_fancy_04 [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 0.2 0.2
+( 208 64 48 ) ( 208 64 49 ) ( 208 65 48 ) Wood/Materials/wood_fancy_04 [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.2 0.2
+}
+// brush 2
+{
+( -144 848 16 ) ( -144 848 17 ) ( -144 847 16 ) Wood/Materials/wood_fancy_04 [ 6.123233995736766e-17 -1 0 -16 ] [ 0 0 -1 0 ] 0 0.2 0.2
+( -16 576 48 ) ( -16 576 49 ) ( -15 576 48 ) Floor/Materials/carpet_blue_01 [ 1 6.123233995736766e-17 0 16 ] [ 0 0 -1 0 ] 0 0.2 0.2
+( -144 848 16 ) ( -144 847 16 ) ( -143 848 16 ) Wood/Materials/wood_fancy_04 [ -6.123233995736766e-17 1 0 16 ] [ -1 -6.123233995736766e-17 0 -16 ] 270 0.2 0.2
+( -16 720 208 ) ( -15 720 208 ) ( -16 719 208 ) Floor/Materials/carpet_blue_01 [ 0.999999999999999 4.371139006309477e-08 0 0 ] [ 4.371139006309477e-08 -0.999999999999999 0 0 ] 0 0.2 0.2
+( -144 608 16 ) ( -143 608 16 ) ( -144 608 17 ) Wood/Materials/wood_fancy_04 [ -1 -6.123233995736766e-17 0 -16 ] [ 0 0 -1 0 ] 0 0.2 0.2
+( 176 720 48 ) ( 176 719 48 ) ( 176 720 49 ) Wood/Materials/wood_fancy_04 [ -6.123233995736766e-17 1 0 16 ] [ 0 0 -1 0 ] 0 0.2 0.2
+}
+// brush 3
+{
+( -144 352 16 ) ( -144 353 16 ) ( -144 352 17 ) Misc/Colors/misc_blue_01 [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 0.6 0.6
+( -144 384 16 ) ( -144 384 17 ) ( -143 384 16 ) Misc/Colors/misc_blue_01 [ 1 0 0 -16 ] [ 0 0 -1 0 ] 0 0.6 0.6
+( -144 352 16 ) ( -143 352 16 ) ( -144 353 16 ) Misc/Colors/misc_blue_01 [ -1 0 0 -16 ] [ 0 -1 0 0 ] 0 0.6 0.6
+( 48 432 64 ) ( 48 433 64 ) ( 49 432 64 ) Misc/Colors/misc_blue_01 [ 1 0 0 16 ] [ 0 -1 0 0 ] 0 0.6 0.6
+( 48 432 32 ) ( 49 432 32 ) ( 48 432 33 ) Misc/Colors/misc_blue_01 [ -1 0 0 -16 ] [ 0 0 -1 0 ] 0 0.6 0.6
+( 128 432 32 ) ( 128 432 33 ) ( 128 433 32 ) Misc/Colors/misc_blue_01 [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.6 0.6
+}
+// brush 4
+{
+( -144 528 16 ) ( -144 529 16 ) ( -144 528 17 ) Floor/Materials/carpet_black_01 [ 0 -1 0 -16 ] [ 0 0 -1 32 ] 0 1 1
+( -160 528 16 ) ( -160 528 17 ) ( -159 528 16 ) Doors/Materials/door_store_food_02 [ 1 0 0 16 ] [ 0 0 -1 0 ] 0 1 1
+( -160 528 16 ) ( -159 528 16 ) ( -160 529 16 ) __TB_empty [ -1 0 0 -16 ] [ 0 -1 0 0 ] 0 1 1
+( -80 576 144 ) ( -80 577 144 ) ( -79 576 144 ) Floor/Materials/carpet_black_01 [ 1 0 0 -16 ] [ 0 -1 0 32 ] 0 1 1
+( -80 576 32 ) ( -79 576 32 ) ( -80 576 33 ) __TB_empty [ -1 0 0 -16 ] [ 0 0 -1 0 ] 0 1 1
+( -80 576 32 ) ( -80 576 33 ) ( -80 577 32 ) Ground/Materials/gravel_02 [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+}
+// brush 5
+{
+( 48 528 16 ) ( 48 529 16 ) ( 48 528 17 ) __TB_empty [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -32 544 16 ) ( -32 544 17 ) ( -31 544 16 ) Food/Materials/food_canned_01 [ 1 0 0 -48 ] [ 0 0 -1 0 ] 0 1 1
+( -32 528 16 ) ( -31 528 16 ) ( -32 529 16 ) __TB_empty [ -1 0 0 16 ] [ 0 -1 0 0 ] 0 1 1
+( 48 576 144 ) ( 48 577 144 ) ( 49 576 144 ) __TB_empty [ 1 0 0 -16 ] [ 0 -1 0 0 ] 0 1 1
+( 48 576 32 ) ( 49 576 32 ) ( 48 576 33 ) __TB_empty [ -1 0 0 16 ] [ 0 0 -1 0 ] 0 1 1
+( 176 576 32 ) ( 176 576 33 ) ( 176 577 32 ) __TB_empty [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+}
+// brush 6
+{
+( -80 528 16 ) ( -80 529 16 ) ( -80 528 17 ) __TB_empty [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -160 544 16 ) ( -160 544 17 ) ( -159 544 16 ) Food/Materials/food_fridge_01 [ 1 0 0 80 ] [ 0 0 -1 0 ] 0 1 1
+( -160 528 16 ) ( -159 528 16 ) ( -160 529 16 ) __TB_empty [ -1 0 0 -16 ] [ 0 -1 0 0 ] 0 1 1
+( -80 576 144 ) ( -80 577 144 ) ( -79 576 144 ) __TB_empty [ 1 0 0 16 ] [ 0 -1 0 0 ] 0 1 1
+( -80 576 32 ) ( -79 576 32 ) ( -80 576 33 ) __TB_empty [ -1 0 0 -16 ] [ 0 0 -1 0 ] 0 1 1
+( -16 576 32 ) ( -16 576 33 ) ( -16 577 32 ) __TB_empty [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+}
+// brush 7
+{
+( -16 528 16 ) ( -16 529 16 ) ( -16 528 17 ) __TB_empty [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -96 544 16 ) ( -96 544 17 ) ( -95 544 16 ) Food/Materials/food_fridge_02 [ 1 0 0 -48 ] [ 0 0 -1 0 ] 0 1 1
+( -96 528 16 ) ( -95 528 16 ) ( -96 529 16 ) __TB_empty [ -1 0 0 16 ] [ 0 -1 0 0 ] 0 1 1
+( -16 576 144 ) ( -16 577 144 ) ( -15 576 144 ) __TB_empty [ 1 0 0 -16 ] [ 0 -1 0 0 ] 0 1 1
+( -16 576 32 ) ( -15 576 32 ) ( -16 576 33 ) __TB_empty [ -1 0 0 16 ] [ 0 0 -1 0 ] 0 1 1
+( 48 576 32 ) ( 48 576 33 ) ( 48 577 32 ) __TB_empty [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+}
+// brush 8
+{
+( -144 528 208 ) ( -144 544 144 ) ( -144 576 144 ) Floor/Materials/carpet_lightgray_01 [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 176 528 208 ) ( 176 544 144 ) ( -144 544 144 ) Floor/Materials/carpet_blue_01 [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.2 0.2
+( 176 544 144 ) ( 176 576 144 ) ( -144 576 144 ) Floor/Materials/carpet_lightgray_01 [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( -144 576 208 ) ( 176 576 208 ) ( 176 528 208 ) Floor/Materials/carpet_lightgray_01 [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( 176 576 144 ) ( 176 576 208 ) ( -144 576 208 ) Floor/Materials/carpet_lightgray_01 [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 176 528 208 ) ( 176 576 208 ) ( 176 576 144 ) Floor/Materials/carpet_lightgray_01 [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+}
+// brush 9
+{
+( 128 352 16 ) ( 128 353 16 ) ( 128 352 17 ) Misc/Colors/misc_blue_01 [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 0.6 0.6
+( -48 384 16 ) ( -48 384 17 ) ( -47 384 16 ) Misc/Colors/misc_blue_01 [ 1 0 0 -16 ] [ 0 0 -1 0 ] 0 0.6 0.6
+( -48 352 48 ) ( -47 352 48 ) ( -48 353 48 ) Misc/Colors/misc_blue_01 [ -1 0 0 16 ] [ 0 -1 0 0 ] 0 0.6 0.6
+( 144 432 64 ) ( 144 433 64 ) ( 145 432 64 ) Misc/Colors/misc_blue_01 [ 1 0 0 -16 ] [ 0 -1 0 0 ] 0 0.6 0.6
+( 144 432 32 ) ( 145 432 32 ) ( 144 432 33 ) Misc/Colors/misc_blue_01 [ -1 0 0 16 ] [ 0 0 -1 0 ] 0 0.6 0.6
+( 176 432 32 ) ( 176 432 33 ) ( 176 433 32 ) Misc/Colors/misc_blue_01 [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.6 0.6
+}
+// brush 10
+{
+( -176 480 48 ) ( -176 480 49 ) ( -176 479 48 ) Floor/Materials/carpet_blue_01 [ 1.2246467991473532e-16 -1 0 32 ] [ 0 0 -1 0 ] 0 0.2 0.2
+( -32 528 48 ) ( -33 528 48 ) ( -32 528 49 ) Floor/Materials/carpet_blue_01 [ 1 1.2246467991473532e-16 0 0 ] [ 0 0 -1 0 ] 0 0.2 0.2
+( 96 608 16 ) ( 95 608 16 ) ( 96 607 16 ) Wood/Materials/wood_fancy_04 [ 1 1.2246467991473532e-16 0 64 ] [ -1.2246467991473532e-16 1 0 -32 ] 180 0.2 0.2
+( -32 480 208 ) ( -32 479 208 ) ( -33 480 208 ) Floor/Materials/carpet_blue_01 [ 0.9999999999999961 8.74227801261894e-08 0 0 ] [ 8.74227801261894e-08 -0.9999999999999961 0 0 ] 0 0.2 0.2
+( 96 608 16 ) ( 96 608 17 ) ( 95 608 16 ) Wood/Materials/wood_fancy_04 [ -1 -1.2246467991473532e-16 0 -64 ] [ 0 0 -1 0 ] 0 0.2 0.2
+( -144 608 16 ) ( -144 607 16 ) ( -144 608 17 ) Wood/Materials/wood_fancy_04 [ -1.2246467991473532e-16 1 0 -32 ] [ 0 0 -1 0 ] 0 0.2 0.2
+}
+}

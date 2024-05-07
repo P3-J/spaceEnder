@@ -1,0 +1,14 @@
+[remap]
+
+importer="qodot.map"
+type="Resource"
+uid="uid://ohhn25sai1h2"
+path="res://.godot/imported/goliath.map-f5cdad1588335fbe9e3263ad60a5bafa.tres"
+
+[deps]
+
+source_file="res://maps/goliath.map"
+dest_files=["res://.godot/imported/goliath.map-f5cdad1588335fbe9e3263ad60a5bafa.tres"]
+
+[params]
+

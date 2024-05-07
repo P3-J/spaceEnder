@@ -1,0 +1,14 @@
+[remap]
+
+importer="qodot.map"
+type="Resource"
+uid="uid://cge765md0sbfv"
+path="res://.godot/imported/mobsall.map-f1efc6cbdf8b76d382df8709000f48ff.tres"
+
+[deps]
+
+source_file="res://maps/mobsall.map"
+dest_files=["res://.godot/imported/mobsall.map-f1efc6cbdf8b76d382df8709000f48ff.tres"]
+
+[params]
+

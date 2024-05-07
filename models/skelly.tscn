@@ -1,0 +1,21 @@
+[gd_scene load_steps=4 format=3 uid="uid://cah0nkc8enu3t"]
+
+[ext_resource type="Script" path="res://models/skelly.cs" id="1_j44v6"]
+[ext_resource type="PackedScene" uid="uid://bod2fnbg7xrbb" path="res://scenes/grass.tscn" id="2_e4py0"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_h5sgp"]
+size = Vector3(2.35087, 1.17745, 2.13565)
+
+[node name="enemyEncounter" type="StaticBody3D"]
+script = ExtResource("1_j44v6")
+
+[node name="Area3D" type="Area3D" parent="."]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Area3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.124394, 0.476709, 0.125369)
+shape = SubResource("BoxShape3D_h5sgp")
+
+[node name="grass" parent="." instance=ExtResource("2_e4py0")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0, 0, 0)
+
+[connection signal="body_entered" from="Area3D" to="." method="_on_area_3d_body_entered"]
