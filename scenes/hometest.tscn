@@ -4709,7 +4709,7 @@ ID = 2
 [node name="playerstuff" type="Node3D" parent="."]
 
 [node name="player" parent="playerstuff" instance=ExtResource("7_mb4yy")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 125.522, 10.1909, 21.5224)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 129.18, -2.58855, 59.1893)
 
 [node name="maincam" type="Camera3D" parent="playerstuff/player"]
 transform = Transform3D(1, 0, 0, 0, 0.861106, 0.508425, 0, -0.508425, 0.861106, 0.0594559, 8.55895, 12.5392)

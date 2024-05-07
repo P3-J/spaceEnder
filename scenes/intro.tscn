@@ -229,6 +229,21 @@ shader = ExtResource("14_wnhbw")
 [sub_resource type="QuadMesh" id="QuadMesh_yppse"]
 size = Vector2(30, 30)
 
+[sub_resource type="Animation" id="Animation_jh2ff"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Camera3D:rotation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(-0.349066, 2.6696, -1.35062e-08)]
+}
+
 [sub_resource type="Animation" id="Animation_60msr"]
 resource_name = "rot"
 length = 10.0
@@ -244,21 +259,6 @@ tracks/0/keys = {
 "transitions": PackedFloat32Array(1, 1, 1),
 "update": 0,
 "values": [Vector3(-0.349066, 2.6696, -1.35062e-08), Vector3(-0.349066, 2.2413, -1.35062e-08), Vector3(-0.349066, 2.67035, 0)]
-}
-
-[sub_resource type="Animation" id="Animation_jh2ff"]
-length = 0.001
-tracks/0/type = "value"
-tracks/0/imported = false
-tracks/0/enabled = true
-tracks/0/path = NodePath("Camera3D:rotation")
-tracks/0/interp = 1
-tracks/0/loop_wrap = true
-tracks/0/keys = {
-"times": PackedFloat32Array(0),
-"transitions": PackedFloat32Array(1),
-"update": 0,
-"values": [Vector3(-0.349066, 2.6696, -1.35062e-08)]
 }
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_a6hb8"]
@@ -343,7 +343,7 @@ stream = ExtResource("16_p0dcp")
 autoplay = true
 
 [node name="Camera3D" type="Camera3D" parent="."]
-transform = Transform3D(-0.890666, -0.155503, 0.42724, -1.26917e-08, 0.939693, 0.34202, -0.454659, 0.304626, -0.836952, 9.11636, 4.74339, -8.09946)
+transform = Transform3D(-0.890664, -0.155504, 0.427243, -1.26917e-08, 0.939693, 0.34202, -0.454662, 0.304625, -0.836951, 9.11636, 4.74339, -8.09946)
 projection = 1
 size = 17.129
 

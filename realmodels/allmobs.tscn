@@ -1,7 +1,7 @@
 [gd_scene load_steps=19 format=3 uid="uid://gyioyer2dwmu"]
 
 [ext_resource type="Script" path="res://addons/qodot/src/nodes/qodot_map.gd" id="1_3rpll"]
-[ext_resource type="Resource" uid="uid://c36hv0o6g0udo" path="res://addons/qodot/game_definitions/fgd/qodot_fgd.tres" id="2_urm14"]
+[ext_resource type="Resource" uid="uid://c36hv0o6g0udo" path="res://addons/qodot/qodot_fgd.tres" id="2_urm14"]
 [ext_resource type="Script" path="res://addons/qodot/src/nodes/qodot_entity.gd" id="3_r0hn2"]
 [ext_resource type="Texture2D" uid="uid://cma6nucolxfjh" path="res://textures/Doors/Materials/door_store_drinks_01.jpg" id="4_78x51"]
 [ext_resource type="Texture2D" uid="uid://b4ab7luikhi01" path="res://textures/Floor/Materials/carpet_black_01.jpg" id="5_t6nq3"]
