@@ -278,7 +278,6 @@ text = "endturn"
 libraries = {
 "": SubResource("AnimationLibrary_8vk4t")
 }
-autoplay = "hidecard"
 
 [node name="cameraBase" type="Node3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.79929, 6.46437, 11.6493)

@@ -32,8 +32,7 @@ public partial class worldstuff : Node3D
         DangerLevelBuffCalculator();
         SetDeckCopy();
         RefreshHud();
-
-        
+        SceneSwitcher.Call("Open"); // SceneSwitcher as in the anims, logic in opener.cs
 	}
 
     public void ConnectStuff()

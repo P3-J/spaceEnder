@@ -1,48 +1,6 @@
-items are cards
-
-sword = +2 str, on use deal 6 dmg
-wooden shield = +1 stamina, on use block 6
-
-relic of the past = +5 mana, on use cast last 2 abilities
-
-firebird = -5 hp each turn, on use Solarflare, deal 20 dmg to all enemies
-
-leghunter = +2 all stats, 1dmg on kill get 10% of the str and hp of enemy
 
 
+- missing 
 
-
-/// card item + 40 max hp
-firebird really good idea actually
-
-replace all item cards in hand with draws.
-draw until hand full;
-
-+1 mana next turn deal 4dmg
-+1 dmg to every atk played this turn
-
-see BUSH CHANCE
-
-
-
-DANGER METER
-risk of rain stiilis
-
-each combat makes the risk meter go up,  raise mob stats by a litte, so we make the player not stay in one area too long
-add some methods of healing, lifesteal too op
-
-next damage you do is doubled
-
-starting area boss, mid game? <-- release on this.
-kapachow !!! ** 
-
-each time played rare card, +1 damage.
-
-debuff cards, DEAL 15dmg but, +1 to mana cost of all cards in hand
-\
- \
-  \
-   \ char select or something like arena
-
-BUG // all cards can be played on self due to card played due to id being there, and card needs to be played.
-    // but why 
+3d cards, monster anims, card anims, shop tune, relics, gold, music, 
+1 boss , 3 mobs, 15 more cards.

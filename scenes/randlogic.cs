@@ -29,10 +29,12 @@ public partial class battle : Node3D
         GameManager.playerGold += 10;
         GameManager.UntilHigherDanger -= 1;
         InitInvisAndVis(false);
-        GetTree().ChangeSceneToFile("res://scenes/hometest.tscn");
-
+        SceneSwitcher.CallDeferred("Close");
     }
 
-    
+    public void SwitchSceneBackToWorld()
+    {
+        GetTree().ChangeSceneToFile("res://scenes/hometest.tscn");
+    }
 
 }

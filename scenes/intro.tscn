@@ -215,10 +215,10 @@ initial_velocity_min = 3.0
 initial_velocity_max = 6.0
 collision_mode = 2
 
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_qsx4d"]
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_1l1kv"]
 
 [sub_resource type="QuadMesh" id="QuadMesh_j768j"]
-material = SubResource("StandardMaterial3D_qsx4d")
+material = SubResource("StandardMaterial3D_1l1kv")
 flip_faces = true
 size = Vector2(0.2, 0.2)
 
@@ -314,7 +314,7 @@ mesh = SubResource("ArrayMesh_kcmg7")
 [node name="worldstuff" type="Node3D" parent="."]
 
 [node name="player" type="MeshInstance3D" parent="worldstuff"]
-transform = Transform3D(0.489633, 0, 0.101291, 0, 0.5, 0, -0.101291, 0, 0.489633, -3.19597, -0.711337, 3.38113)
+transform = Transform3D(0.403784, 0, 0.294887, 0, 0.5, 0, -0.294887, 0, 0.403784, -3.19597, -0.711337, 5.34258)
 cast_shadow = 2
 gi_mode = 0
 mesh = SubResource("ArrayMesh_765bk")

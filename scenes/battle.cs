@@ -23,7 +23,7 @@ public partial class battle : Node3D
 	Control hudParent;
 	Node3D cameraBase;
 	Control opener;
-
+	Control SceneSwitcher;
 	public override void _Ready()
 	{	
 		// on load connect combatSignal
@@ -63,7 +63,10 @@ public partial class battle : Node3D
 
 		CardAnim = GetNode<AnimationPlayer>("hudParent/cardanim");
 
-		GetNode<Control>("opener").Call("Open");
+		Callable closer = new(this, nameof(SwitchSceneBackToWorld));
+        SceneSwitcher = GetNode<Control>("opener");
+        SceneSwitcher.Connect("close", closer);
+		SceneSwitcher.Call("Open");
 	}
 
 	
@@ -105,7 +108,6 @@ public partial class battle : Node3D
 	{
 		playerCurrentMana = GameManager.playerMana;
 	}
-
 
 	public void playerTurnProcess() 
 	{	
