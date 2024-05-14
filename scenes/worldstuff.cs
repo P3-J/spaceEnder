@@ -140,7 +140,7 @@ public partial class worldstuff : Node3D
 
 	public void SetPlayerDeck()
     {   
-        List<int> deckList = new() {1,2,3,4,17,17,17,2,2,18,18,18};
+        List<int> deckList = new() {1,1,1,1,2,2,2,2};
         GameManager.SetItems(GenerateDeck(deckList));
     }
 

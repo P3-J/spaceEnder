@@ -10,7 +10,7 @@ public static class GameManager
     public static int playerMana { get; set;} = 3;
     public static int playerHp { get; set;} = 30;
     public static int playerCHp { get; set;} = 0;
-    public static int playerGold { get; set;} = 1000;
+    public static int playerGold { get; set;} = 60;
 
     public static bool firstBoot { get; set;} = true;
     public static List<ItemData> deepCopy {get; set;} /// for deck pre combat afte combat clone
@@ -24,7 +24,7 @@ public static class GameManager
 
     public static bool CanMove {get; set;} = true;
 
-    public static List<int> AllItems = new() {1,2,3,4,5,7,8,9,10,11,12,13,14,15,16,17}; // these are the ones available to the shop atleast.
+    public static List<int> AllItems = new() {1,2,3,4,5,7,8,9,10,11,12,13,14,15,16,17,18}; // these are the ones available to the shop atleast.
     public static List<int> ItemIds = new() {6, 12};
     public static List<int> SelfUseCards = new() {2,3,5,7,10,11,14,16}; // defence, draws so on.
 
@@ -87,7 +87,7 @@ public static class GameManager
             case 17:
                 return "Attack for " + item.Value.ToString() + "\n+" + item.SecondaryValue.ToString() + " atk to this";
             case 18:
-                return "Attack for " + item.Value.ToString() + "\n" + item.SecondaryValue.ToString() + "cost to cards in hand";
+                return "Attack for " + item.Value.ToString() + "\n" + item.SecondaryValue.ToString() + " cost to all cards in hand";
             default:
                 return "Default";
         }

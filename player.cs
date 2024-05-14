@@ -11,6 +11,7 @@ public partial class player : CharacterBody3D
 
 	AnimationPlayer animplayer;
 	Node3D rotator;
+	AudioStreamPlayer WalkingSound;
 
 	private System.Collections.Generic.Dictionary<Vector2, Vector3> directionRotations = new()
     {
@@ -23,6 +24,7 @@ public partial class player : CharacterBody3D
     {
         animplayer = GetNode<AnimationPlayer>("animplayer");
 		rotator = GetNode<Node3D>("rotator");
+		WalkingSound = GetNode<AudioStreamPlayer>("walk");
     }
 
 	
@@ -56,11 +58,13 @@ public partial class player : CharacterBody3D
 			velocity.Z = direction.Z * Speed;
 			if (animplayer.IsPlaying() == false)
 			{
+				WalkingSound.Play();
 				animplayer.Play("moving");
 			}
 		}
 		else
 		{
+			WalkingSound.Stop();
 			animplayer.Stop();
 			velocity.X = Mathf.MoveToward(Velocity.X, 0, Speed);
 			velocity.Z = Mathf.MoveToward(Velocity.Z, 0, Speed);

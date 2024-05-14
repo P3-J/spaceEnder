@@ -1,4 +1,4 @@
-[gd_scene load_steps=48 format=3 uid="uid://1m3fpoqmfe1m"]
+[gd_scene load_steps=47 format=3 uid="uid://1m3fpoqmfe1m"]
 
 [ext_resource type="Script" path="res://addons/qodot/src/nodes/qodot_map.gd" id="1_2nrsa"]
 [ext_resource type="Script" path="res://scenes/shop.cs" id="1_6bq2v"]
@@ -15,7 +15,6 @@
 [ext_resource type="Texture2D" uid="uid://cusx003riif8r" path="res://textures/Floor/Materials/carpet_lightgray_01.png" id="15_6musn"]
 [ext_resource type="Shader" path="res://realmodels/def.gdshader" id="15_bwq62"]
 [ext_resource type="Texture2D" uid="uid://b4ab7luikhi01" path="res://textures/Floor/Materials/carpet_black_01.jpg" id="16_4xhbe"]
-[ext_resource type="PackedScene" uid="uid://d06lhutudskw" path="res://models/player.tscn" id="17_rsyjr"]
 [ext_resource type="PackedScene" uid="uid://bbqarnqoa0fkv" path="res://scenes/cardslot.tscn" id="18_4dg4v"]
 
 [sub_resource type="Sky" id="Sky_gc7ra"]
@@ -328,7 +327,7 @@ shape = SubResource("ConvexPolygonShape3D_kf3wh")
 [node name="Camera3D" type="Camera3D" parent="."]
 transform = Transform3D(-0.652128, 0.264441, -0.710493, 0.0123986, 0.940786, 0.338774, 0.758008, 0.212115, -0.616791, 1.2561, 8.30751, -9.23481)
 projection = 1
-size = 9.696
+size = 7.212
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="Camera3D"]
 transform = Transform3D(1, 8.9407e-08, 1.19209e-07, 0, 1, 4.47035e-08, 0, 2.68221e-07, 1, 0.559011, 0.663886, -1.8202)
@@ -434,9 +433,6 @@ offset_top = -402.0
 offset_right = -400.0
 offset_bottom = -324.0
 text = "30g"
-
-[node name="player" parent="." instance=ExtResource("17_rsyjr")]
-transform = Transform3D(0.0697042, 0, -0.997568, 0, 1, 0, 0.997568, 0, 0.0697042, 6.57606, 0.978529, 0)
 
 [connection signal="pressed" from="ui/remove" to="." method="_on_remove_pressed"]
 [connection signal="pressed" from="ui/gen" to="." method="_on_gen_pressed"]

@@ -70,7 +70,8 @@ public partial class shop : Node3D
 
 		while (RemovalSelections.Count < 3)
 		{
-			int randomSelection = random.RandiRange(1, GameManager.AllItems.Count);
+			int randomSelection = random.RandiRange(1, GameManager.GetItems().Count);
+			GD.Print(randomSelection);
 			if (!RemovalSelections.Contains(randomSelection))
 			{
 				RemovalSelections.Add(randomSelection);
@@ -79,10 +80,10 @@ public partial class shop : Node3D
 
 		for (int i = 0; i < RemovalSelections.Count; i++)
 		{
-			ItemData item = PlayerCurrentDeck[RemovalSelections[i]];
+			ItemData item = PlayerCurrentDeck[RemovalSelections[i] - 1];
 			PopulateCards(rectTable[i], item);
 		}
-
+		GD.Print("REMOVAL", RemovalSelections);
 	}
 
 	private void _on_buy_pressed()

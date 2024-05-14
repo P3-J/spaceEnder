@@ -12,8 +12,8 @@ dest_files=["res://.godot/imported/snowstorm.mp3-6f0f1427a1634dcf5a88c0fd0d55dba
 
 [params]
 
-loop=false
-loop_offset=0
-bpm=0
+loop=true
+loop_offset=2.0
+bpm=0.0
 beat_count=0
 bar_beats=4

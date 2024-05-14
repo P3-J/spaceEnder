@@ -1,4 +1,4 @@
-[gd_scene load_steps=17 format=3 uid="uid://d06lhutudskw"]
+[gd_scene load_steps=18 format=3 uid="uid://d06lhutudskw"]
 
 [ext_resource type="Script" path="res://player.cs" id="1_3tvqn"]
 [ext_resource type="Texture2D" uid="uid://b13jd3gbogvb4" path="res://textures/Misc/Colors/Color_OffWhite.png" id="2_1d1bg"]
@@ -6,6 +6,7 @@
 [ext_resource type="Texture2D" uid="uid://cguf1kifb1yd8" path="res://textures/Misc/Materials/bolt_head_01.png" id="4_hpytc"]
 [ext_resource type="Texture2D" uid="uid://c0y2bptnys6ym" path="res://textures/Ground/Materials/dirt_0.png" id="5_orw8u"]
 [ext_resource type="Texture2D" uid="uid://cwdiutu5jpm80" path="res://textures/Ground/Materials/gravel_02.png" id="6_6qpi2"]
+[ext_resource type="AudioStream" uid="uid://chhtwjorq1jgl" path="res://assets/music/newfoot.mp3" id="7_vopo8"]
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_k5dnf"]
 radius = 0.379316
@@ -163,3 +164,8 @@ spot_angle = 67.377
 libraries = {
 "": SubResource("AnimationLibrary_q6w50")
 }
+
+[node name="walk" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("7_vopo8")
+volume_db = 4.522
+pitch_scale = 1.49

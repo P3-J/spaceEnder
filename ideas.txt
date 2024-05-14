@@ -4,3 +4,5 @@
 
 3d cards, monster anims, card anims, shop tune, relics, gold, music, 
 1 boss , 3 mobs, 15 more cards.
+
+invest, wheel of fortune

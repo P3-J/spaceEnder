@@ -71,7 +71,7 @@ public partial class battle : Node3D
                 Abilities.Add("spawn", 1);
                 Abilities.Add("heal all", 5);
                 Abilities.Add("damage buff all", 1);
-                Hp  = 15 * diff;
+                Hp  = 130 * diff;
                 Def = 10  * diff;
                 Atk = 15  * diff;
                 AtkRatio = 4;
@@ -83,8 +83,8 @@ public partial class battle : Node3D
                 Name = "Skruff";
                 Hp = 22 * diff;
                 Def = 5 * diff;
-                Atk = 12 * diff;
-                Abilities.Add("damage buff all", 3);
+                Atk = 11 * diff;
+                Abilities.Add("damage buff all", 2);
                 AtkRatio = 3;
                 DefRatio = 2;
                 AbilityRatio = 2;
@@ -153,7 +153,7 @@ public partial class battle : Node3D
                 createEnemy(random.RandiRange(1,2), 1);
                 break;
             case 2:
-                createEnemy(random.RandiRange(2,3), 2);
+                createEnemy(random.RandiRange(2,3), 1);
                 break;
             case 3:
                 break;
