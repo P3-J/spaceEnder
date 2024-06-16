@@ -5512,7 +5512,7 @@ ID = 8
 [node name="playerstuff" type="Node3D" parent="."]
 
 [node name="player" parent="playerstuff" instance=ExtResource("7_mb4yy")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 177.015, -1.34617, 51.0308)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 177.783, -0.718521, 50.5686)
 
 [node name="maincam" type="Camera3D" parent="playerstuff/player"]
 transform = Transform3D(1, 0, 0, 0, 0.861106, 0.508425, 0, -0.508425, 0.861106, 0.0594559, 8.55895, 12.5392)
@@ -5636,7 +5636,7 @@ texture_albedo = ExtResource("66_fw84j")
 
 [node name="windo" type="AudioStreamPlayer" parent="worldstuff/sounds"]
 stream = ExtResource("35_kfdwe")
-volume_db = -7.752
+volume_db = -10.982
 autoplay = true
 
 [node name="opener" parent="." instance=ExtResource("23_h3ng2")]

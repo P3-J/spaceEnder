@@ -1,4 +1,5 @@
 using Godot;
+using System;
 using System.Collections.Generic;
 
 public partial class player : CharacterBody3D
@@ -18,7 +19,11 @@ public partial class player : CharacterBody3D
         {Vector2.Up, new Vector3(0, 0, 0)},
         {Vector2.Down, new Vector3(0, 180, 0)},
         {Vector2.Left, new Vector3(0, 90, 0)},
-        {Vector2.Right, new Vector3(0, -90, 0)}
+        {Vector2.Right, new Vector3(0, -90, 0)},
+		{new Vector2(-0.7F, 0.7F), new Vector3(0, 135, 0)},
+		{new Vector2(-0.7F, -0.7F), new Vector3(0, 45, 0)},
+		{new Vector2(0.7F, -0.7F), new Vector3(0, -45, 0)},
+		{new Vector2(0.7F, 0.7F), new Vector3(0, -135, 0)}
     };
 	public override void _Ready()
     {
@@ -76,14 +81,28 @@ public partial class player : CharacterBody3D
 
 	public void SetDire(Vector2 dire)
 	{
-		if (dire == Vector2.Down)
-			rotator.RotationDegrees = directionRotations[dire];
-		else if (dire == Vector2.Up)
-			rotator.RotationDegrees = directionRotations[dire];
-		else if (dire == Vector2.Left)
-			rotator.RotationDegrees = directionRotations[dire];
-		else if (dire == Vector2.Right)
-			rotator.RotationDegrees = directionRotations[dire];
+		Vector2 direCopy = new Vector2((float)Math.Round(dire.X, 1) , (float)Math.Round(dire.Y, 1));
+
+		if (direCopy == Vector2.Down)
+			rotator.RotationDegrees = directionRotations[direCopy];
+		else if (direCopy == Vector2.Up)
+			rotator.RotationDegrees = directionRotations[direCopy];
+		else if (direCopy == Vector2.Left)
+			rotator.RotationDegrees = directionRotations[direCopy];
+		else if (direCopy == Vector2.Right)
+			rotator.RotationDegrees = directionRotations[direCopy];
+		else if (direCopy == new Vector2(-0.7F, 0.7F))
+			rotator.RotationDegrees = directionRotations[direCopy];
+		else if (direCopy == new Vector2(-0.7F, -0.7F))
+			rotator.RotationDegrees = directionRotations[direCopy];
+		else if (direCopy == new Vector2(0.7F, -0.7F))
+			rotator.RotationDegrees = directionRotations[direCopy];
+		else if (direCopy == new Vector2(0.7F, 0.7F))
+			rotator.RotationDegrees = directionRotations[direCopy];
+
+		if (dire != Vector2.Zero){
+			GD.Print(dire, Math.Round(dire.X, 1));
+		}
 	}
 }
    
