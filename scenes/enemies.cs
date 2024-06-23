@@ -92,12 +92,12 @@ public partial class battle : Node3D
             case 5: 
                 Name = "Vending";
                 Hp = 17 * diff;
-                Def = 9 * diff;
+                Def = 6 * diff;
                 Atk =  7 * diff;
-                Abilities.Add("heal all", 8);
-                AtkRatio = 1;
+                Abilities.Add("heal all", 7);
+                AtkRatio = 2;
                 DefRatio = 2;
-                AbilityRatio = 3;
+                AbilityRatio = 2;
                 break;
         }
         // danger level buffs

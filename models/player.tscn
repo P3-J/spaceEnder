@@ -167,5 +167,5 @@ libraries = {
 
 [node name="walk" type="AudioStreamPlayer" parent="."]
 stream = ExtResource("7_vopo8")
-volume_db = 4.522
+volume_db = 0.646
 pitch_scale = 1.49

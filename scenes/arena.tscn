@@ -274,6 +274,15 @@ offset_bottom = 138.667
 theme_override_fonts/font = ExtResource("8_vum4k")
 text = "endturn"
 
+[node name="cardsInDeck" type="Label" parent="hudParent/hud"]
+layout_mode = 0
+offset_left = 618.667
+offset_top = 85.3333
+offset_right = 712.667
+offset_bottom = 108.333
+theme_override_fonts/font = ExtResource("8_vum4k")
+text = "IN DECK: 5"
+
 [node name="cardanim" type="AnimationPlayer" parent="hudParent"]
 libraries = {
 "": SubResource("AnimationLibrary_8vk4t")
@@ -297,6 +306,7 @@ material_override = SubResource("ShaderMaterial_rcmxf")
 mesh = SubResource("QuadMesh_cuira")
 
 [node name="opener" parent="." instance=ExtResource("9_53ss4")]
+visible = false
 mouse_filter = 2
 
 [node name="areanstuff" type="Node3D" parent="."]

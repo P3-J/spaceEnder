@@ -24,6 +24,7 @@ public partial class battle : Node3D
 	Node3D cameraBase;
 	Control opener;
 	Control SceneSwitcher;
+	Label playerCardsLeft;
 	public override void _Ready()
 	{	
 		// on load connect combatSignal
@@ -53,6 +54,7 @@ public partial class battle : Node3D
 		}
 
 		playerHead = GetNode<Label3D>("areanstuff/skellyModel/playerHead");
+		playerCardsLeft = GetNode<Label>("hudParent/hud/cardsInDeck");
 
 		battleCam = GetNode<Camera3D>("cameraBase/worldCam");
 		cameraBase = GetNode<Node3D>("cameraBase");
@@ -166,6 +168,8 @@ public partial class battle : Node3D
 			playerDefence.ToString() + " 🛡️\n" + 
 			GameManager.playerCHp.ToString() + "/" + GameManager.playerHp.ToString() + " ❤️\n" +
 			playerCurrentMana + "/" + GameManager.playerMana.ToString() + " ⚡";
+
+		playerCardsLeft.Text = "In Deck: " + playerCards.Count.ToString();
 	}
 
 
