@@ -150,6 +150,7 @@ public static class GameManager
 
     public static void MakeADeepCopy(List<ItemData> items)
     {
+        // makes 1:1 copy of item from reference deck.
         deepCopy = new();
         foreach (ItemData item in items)
         {
@@ -332,6 +333,7 @@ public class ItemData
 
     public ItemData(ItemData original)
     {   // this lets you enter the og into a format like this.
+        // this makes a copy of the buff as well, so 1:1 not initialized.
         Name = original.Name;
         Type = original.Type;
         Value = original.Value;

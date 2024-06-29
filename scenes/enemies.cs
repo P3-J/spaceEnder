@@ -71,7 +71,7 @@ public partial class battle : Node3D
                 Abilities.Add("spawn", 1);
                 Abilities.Add("heal all", 5);
                 Abilities.Add("damage buff all", 1);
-                Hp  = 130 * diff;
+                Hp  = 1 * diff;
                 Def = 10  * diff;
                 Atk = 15  * diff;
                 AtkRatio = 4;
@@ -142,7 +142,7 @@ public partial class battle : Node3D
         // 1 simple, one to two | low 
         // 2 harder min 2 max 3 | mid
         // 3 three enemies, or one strong af | high
-        // -1 boss | extreme
+        // +3 = boss | extreme
 
         var random = new RandomNumberGenerator();
 		random.Randomize();

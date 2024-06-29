@@ -5509,6 +5509,12 @@ Difficulty = 71
 InstantFight = true
 ID = 8
 
+[node name="firestarter9" parent="instafights" instance=ExtResource("55_empjo")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 176.132, -2.42562, 47.6726)
+Difficulty = 71
+InstantFight = true
+ID = 9
+
 [node name="playerstuff" type="Node3D" parent="."]
 
 [node name="player" parent="playerstuff" instance=ExtResource("7_mb4yy")]

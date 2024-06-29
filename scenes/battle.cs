@@ -378,7 +378,7 @@ public partial class battle : Node3D
 
 	private void ClickOnEnemy(int enemySlot)
 	{	
-		if (playerTurn == true && GameManager.SelectedCardId != -1 && GameManager.SelectedEnemyId != -1)
+		if (playerTurn && GameManager.SelectedCardId != -1 && GameManager.SelectedEnemyId != -1)
 		{
 			TryToPlay(enemySlot, GameManager.SelectedCardId);
 		}

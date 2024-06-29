@@ -25,16 +25,24 @@ public partial class battle : Node3D
     public void CombatOverSequence()
     {
         // mobs dead
-        // reward maybe
+        // reward maybe on set battle
+        DenoteReward();
         GameManager.playerGold += 10;
         GameManager.UntilHigherDanger -= 1;
         InitInvisAndVis(false);
         SceneSwitcher.CallDeferred("Close");
     }
 
+
+    public void DenoteReward()
+    {   
+        int currentDifficulty = GameManager.Diff;
+        if(currentDifficulty > 3){return;}
+        GD.Print("ready to gamble DIFF:" + currentDifficulty);
+    }
+
     public void SwitchSceneBackToWorld()
     {
         GetTree().ChangeSceneToFile("res://scenes/hometest.tscn");
     }
-
 }
