@@ -122,7 +122,7 @@ public partial class battle : Node3D
 
 		if (round == 0) 
 		{
-			draw(5);
+			draw(3);
 		} else {
 			draw(3);
 		}

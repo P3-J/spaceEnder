@@ -23,7 +23,7 @@ window/stretch/mode="viewport"
 
 [dotnet]
 
-project/assembly_name="Space Ender"
+project/assembly_name="SpaceEnder"
 
 [editor_plugins]
 
